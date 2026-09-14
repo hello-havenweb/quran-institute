@@ -1,0 +1,13 @@
+# robots.txt for Al Ameen Quran Institute
+# https://YOUR-DOMAIN-HERE/
+
+User-agent: *
+Allow: /
+Disallow: /assets/private/
+
+# Block common non-content paths
+Disallow: /*.json$
+Disallow: /*?*
+
+# Sitemap
+Sitemap: https://YOUR-DOMAIN-HERE/sitemap.xml
